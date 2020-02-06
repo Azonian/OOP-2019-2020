@@ -4,9 +4,13 @@ import processing.core.PApplet;
 
 public class HelloProcessing extends PApplet
 {	
+	static int screenHX = 500;
+	static int screenHY = 500;
+	
+	
 	public void settings()
 	{
-		size(500, 500);
+		size(screenHX, screenHY);
 	}
 
 	public void setup() {
